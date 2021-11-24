@@ -1,0 +1,45 @@
+/*CMS Page Css Start*/
+.default-cms-page { padding: 100px 0 65px; }
+.default-cms-page h1 { text-transform: uppercase; color: #000; font-family: 'Brandon Grotesque Bold' !important; text-align: center; margin-bottom: 30px; font-size: 50px; }
+.default-cms-page p { margin-bottom: 35px; }
+.default-cms-page h2 { font-size: 40px !important; font-family: 'Brandon Grotesque Regular' !important; margin-bottom: 20px; line-height: 1.15; }
+.default-cms-page h3 { font-size: 36px; font-family: 'Brandon Grotesque Regular' !important; line-height: 1.15; margin: 0 0 20px; }
+.default-cms-page h4 { font-size: 32px; font-family: 'Brandon Grotesque Regular' !important; line-height: 1.15; margin: 0 0 20px; }
+.default-cms-page h5 { font-size: 28px; font-family: 'Brandon Grotesque Regular' !important; line-height: 1.15; margin: 0 0 20px; }
+.default-cms-page h6 { font-size: 24px; font-family: 'Brandon Grotesque Regular' !important; line-height: 1.15; margin: 0 0 20px; }
+.default-cms-page a { color: #F32735; font-size: inherit; line-height: inherit; font-weight: inherit; }
+.default-cms-page a:hover { text-decoration: underline; }
+.default-cms-page ul, .default-cms-page ol { margin-bottom: 35px; }
+.default-cms-page ul>li { position: relative; padding-left: 20px; }
+.default-cms-page ul>li:before { position: absolute; content: ""; width: 8px; height: 8px; left: 0; top: 11px; background-color: #4B7634; border-radius: 50%; }
+.default-cms-page ul li + li, .default-cms-page ol li + li { margin-top: 5px; }
+.default-cms-page ol { list-style: decimal; padding-left: 20px; }
+.default-cms-page ul ol, .default-cms-page ol ul { padding: 10px 0 0 20px; margin-bottom: 0; }
+.default-cms-page strong { font-family: 'Brandon Grotesque Bold'; }
+.default-cms-page p a, .default-cms-page ul li a, .default-cms-page ol li a { display: inline; }
+
+/*CMS Page Css End*/
+
+@media screen and (max-width:1199px) {
+	.default-cms-page { padding: 64px 0 34px; }
+	.default-cms-page p, .default-cms-page ul li, .default-cms-page ol li { font-size: 20px; }
+	.default-cms-page ul>li:before { top: 9px; }
+	.default-cms-page p, .default-cms-page ul, .default-cms-page ol { margin-bottom: 30px; }
+	.default-cms-page h1 { font-size: 44px; }
+	.default-cms-page h2 { font-size: 38px !important; }
+	.default-cms-page h3 { font-size: 34px; }
+	.default-cms-page h4 { font-size: 30px; }
+	.default-cms-page h5 { font-size: 26px; }
+	.default-cms-page h6 { font-size: 22px; }
+}
+@media screen and (max-width:767px) {
+	.default-cms-page { padding: 50px 0 20px; }
+	.default-cms-page p, .default-cms-page ul li, .default-cms-page ol li { font-size: 18px; }
+	.default-cms-page ul>li:before { top: 8px; }
+	.default-cms-page h1 { font-size: 38px; }
+	.default-cms-page h2 { font-size: 34px !important; }
+	.default-cms-page h3 { font-size: 30px; }
+	.default-cms-page h4 { font-size: 28px; }
+	.default-cms-page h5 { font-size: 24px; }
+	.default-cms-page h6 { font-size: 20px; }
+}
